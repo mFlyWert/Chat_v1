@@ -69,6 +69,7 @@
     width: calc(870px - 271px);
     padding: 0 35px 0 21px;
     overflow-y: auto;
+    overflow-x: hidden;
   }
 
   &__message {
