@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: 'Montserrat', sans-serif, Arial;
+}
+
+input,
+input:focus,
+button{
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  &:hover{
+    color: #274277;
+  }
+}
+
+h2{
+  font-size: 50px;
+}
